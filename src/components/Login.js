@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style/Login.css';
 import {Link, useNavigate } from 'react-router-dom';
-import { auth } from './Firebase';
+import { auth } from '../Firebase';
 
 function Login() {
 	// FIREBASE LOGIN

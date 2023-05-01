@@ -6,7 +6,7 @@ import Login from "./components/Login";
 import Checkout from "./components/Checkout";
 import Header from "./components/Header";
 import { useStateValue } from "./StateProvider";
-import { auth } from './components/Firebase';
+import { auth } from '../Firebase';
 
 function App() {
 	// FIREBASE LOGIN
