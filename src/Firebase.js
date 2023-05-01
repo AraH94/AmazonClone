@@ -1,5 +1,6 @@
 import firebase from "firebase";
-
+import 'firebase/auth';
+import 'firebase/firestore';
 
 const firebaseApp = firebase.initializeApp({
 	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -21,7 +22,8 @@ instal in terminal: npm install firebase
 */
 
 /*
-import firebase from "firebase";
+import firebase from "firebase";import 'firebase/auth';
+import 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyD3P-qr7Mrlg74BQymT7bykV2HYwbU8Gk8",
